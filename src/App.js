@@ -1,5 +1,5 @@
 import "bootstrap/dist/css/bootstrap.min.css";
-import ItemListContainer from "./components/ItemListContainer";
+import ItemDetailContainer from "./containers/ItemDetailContainer";
 
 
 
@@ -7,7 +7,7 @@ import ItemListContainer from "./components/ItemListContainer";
 function App() {
   return (
     <div>
-      <ItemListContainer />
+      <ItemDetailContainer />
     </div>
   );
 }

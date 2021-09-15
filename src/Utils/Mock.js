@@ -15,3 +15,16 @@ export  const get = new Promise((res,rej) => {
         rej('404')
     }
 })
+
+const producto = { id: 1, titulo: 'Torta Multicolor', descripcion: 'Torta de bizcochuelos de colores, cubierta con crema', precio: 'Precio $1000', imagen:'https://www.bettycrocker.lat/wp-content/uploads/2020/12/BClatam-recipe-pastel-arcoiris.png'}
+
+export  const getProducto = new Promise((res,rej) => {
+  let respuesta = '200';
+  if (respuesta === '200'){
+    setTimeout(() => {
+      res(producto);
+    }, 2000);
+  } else {
+      rej('404')
+  }
+})

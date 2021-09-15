@@ -1,6 +1,6 @@
 import React, { useState }  from 'react'
 import {get} from '../Utils/Mock';
-import ItemList from './ItemList';
+import ItemList from '../components/ItemList';
 
 
 function ItemListContainer() {
@@ -18,7 +18,7 @@ function ItemListContainer() {
 
     return (
         <>
-            <ItemList productos={productos}/>
+        <ItemList productos={productos} />
         </>
       )
 }
