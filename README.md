@@ -35,8 +35,6 @@ Este repositorio corresponde a el desafio numero 6 del curso de react de coderho
 
 ## Autor
 
-_Menciona a todos aquellos que ayudaron a levantar el proyecto desde sus inicios_
-
 * **Larrea Suarez Matias Ezequiel** - *Trabajo en progreso* - [Larrea Matias](https://github.com/Matata1991)
 
 ## Gracias por tu tiempo!!!
